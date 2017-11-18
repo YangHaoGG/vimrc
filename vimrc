@@ -17,10 +17,8 @@ let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*/node_modules/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {'dir':  '\v[\/]\.(git|hg|svn)$', 'file': '\v\.(exe|so|dll)$'}
 
-Plugin 'vim-scripts/c.vim'
-Plugin 'vim-scripts/cscope_dynamic'
-Plugin 'vim-scripts/vim-run'
-" Plugin 'vim-scripts/PaperColor.vim'
+Plugin 'WolfgangMehner/vim-plugins'
+Plugin 'erig0/cscope_dynamic'
 Plugin 'NLKNguyen/papercolor-theme'
 
 " 让vundle管理插件版本,必须
